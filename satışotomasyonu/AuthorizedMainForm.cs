@@ -144,7 +144,7 @@ namespace satışotomasyonu
 
         private void yetkiliformu_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'satisotomaosyonuDataSet5.Waiting_Orders' table. You can move, or remove it, as needed.
+  
             this.waiting_OrdersTableAdapter.Fill(this.satisotomaosyonuDataSet5.Waiting_Orders);
      
 
@@ -176,7 +176,7 @@ namespace satışotomasyonu
                 MailMessage mailmesaj = new MailMessage();
                 SmtpClient istemci = new SmtpClient()
                 {
-                    Credentials = new System.Net.NetworkCredential("cdogrulama@gmail.com", "eznsimizmnjlyjmq"),
+                    Credentials = new System.Net.NetworkCredential("Mail Adresi", "Mail Programı kodu"),
                     Port = 587,
                     Host = "smtp.gmail.com",
                     EnableSsl = true
@@ -329,7 +329,7 @@ namespace satışotomasyonu
                 MailMessage mailmesaj = new MailMessage();
                 SmtpClient istemci = new SmtpClient()
                 {
-                    Credentials = new System.Net.NetworkCredential("cdogrulama@gmail.com", "eznsimizmnjlyjmq"),
+                    Credentials = new System.Net.NetworkCredential("Mail Adresi", "Mail Programı kodu"),
                     Port = 587,
                     Host = "smtp.gmail.com",
                     EnableSsl = true

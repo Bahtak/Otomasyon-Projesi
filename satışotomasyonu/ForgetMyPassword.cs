@@ -58,14 +58,14 @@ namespace satışotomasyonu
                     MailMessage mailmesaj = new MailMessage();
                     SmtpClient istemci = new SmtpClient()
                     {
-                        Credentials = new System.Net.NetworkCredential("cdogrulama@gmail.com", "eznsimizmnjlyjmq"),
+                        Credentials = new System.Net.NetworkCredential("Mail Adresi", "Mail Kodu"),
                         Port = 587,
                         Host = "smtp.gmail.com",
                         EnableSsl = true
                     };
 
                     mailmesaj.To.Add(textBox1.Text);
-                    mailmesaj.From = new MailAddress("cdogrulama@gmail.com");
+                    mailmesaj.From = new MailAddress("Mail Adresi");
                     mailmesaj.Subject = ("Mail Şifre Değiştirme Kodu ");
                     mailmesaj.Body = $"sayın {fullName.Trim()}\n şifre değiştirme kodunuz : {şifreunututmonaykodu2}";
 

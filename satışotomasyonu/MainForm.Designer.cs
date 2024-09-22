@@ -75,7 +75,6 @@
             this.textBox_kullaniciadi.Name = "textBox_kullaniciadi";
             this.textBox_kullaniciadi.Size = new System.Drawing.Size(121, 20);
             this.textBox_kullaniciadi.TabIndex = 2;
-            this.textBox_kullaniciadi.Text = "yusuf.yiildiiriim@gmail.com";
             // 
             // contextMenuStrip1
             // 
